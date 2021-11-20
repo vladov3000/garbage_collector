@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vlad/CLionProjects/garbage_collector/boot.c
+stdlib.h
+-
+stdio.h
+-
+stdint.h
+-
+stdbool.h
+-
+
